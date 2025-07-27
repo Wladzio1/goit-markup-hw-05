@@ -697,7 +697,7 @@ header > div {
   fill: transparent;
 }
 
-.checkbox-input:checked + .privacy-label .checkbox-span {
+.checkbox-input:checked + .checkbox-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
