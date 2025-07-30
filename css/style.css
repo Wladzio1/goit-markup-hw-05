@@ -639,9 +639,10 @@ header > div {
 
 .modal-window-input:focus {
   border-color: #4d5ae5;
-  .input-icon {
-    fill: #4d5ae5;
-  }
+}
+
+.modal-window-input:focus .input-icon {
+  fill: #4d5ae5;
 }
 
 .input-icon {
