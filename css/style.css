@@ -713,7 +713,7 @@ header > div {
   fill: transparent;
 }
 
-.checkbox-input:checked + .checkbox-icon {
+input:checked + span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
