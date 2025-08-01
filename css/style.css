@@ -626,6 +626,10 @@ header > div {
   position: relative;
 }
 
+.input-icon-container:focus-within .input-icon {
+  fill: #4d5ae5;
+}
+
 .modal-window-input {
   width: 100%;
   height: 40px;
@@ -641,7 +645,7 @@ header > div {
   border-color: #4d5ae5;
 }
 
-.modal-window-input:focus .input-icon {
+.modal-window-input:focus-within .input-icon {
   fill: #4d5ae5;
 }
 
