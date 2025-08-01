@@ -613,6 +613,10 @@ header > div {
   margin-bottom: 8px;
 }
 
+.modal-window-form-comment {
+  margin-bottom: 16px;
+}
+
 .modal-window-form-div-label {
   font-size: 12px;
   line-height: 1.17;
@@ -678,7 +682,14 @@ header > div {
 }
 
 .checkbox-container {
+  width: 360px;
+  height: 16px;
   margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8px;
 }
 
 .privacy-label {
@@ -710,10 +721,16 @@ header > div {
 
 .policy-link {
   color: #4d5ae5;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
 }
 
 .form-button {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
@@ -725,5 +742,8 @@ header > div {
   cursor: pointer;
   background-color: #4d5ae5;
   border: none;
+  border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  padding: 16px 32px;
 }
