@@ -713,7 +713,7 @@ header > div {
   fill: transparent;
 }
 
-input:checked ~ span {
+#user-privacy:checked + .privacy-label span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
